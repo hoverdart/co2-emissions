@@ -1,0 +1,20 @@
+[project]
+title = "Annual CO2 Emissions"
+version = "0.1.0"
+port = 8501
+slug = "preswald-project"  
+entrypoint = "hello.py"    
+
+[branding]
+name = "Annual CO2 Emissions"
+logo = "images/logo.png"
+favicon = "images/favicon.ico"
+primaryColor = "#F89613"
+
+[data.co2Emissions_csv]
+type = "csv"
+path = "data/co2Emissions.csv"
+
+[logging]
+level = "INFO"  
+format = "%(asctime)s - %(name)s - %(levelname)s - %(message)s"
